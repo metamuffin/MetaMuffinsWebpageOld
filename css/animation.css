@@ -1,0 +1,60 @@
+
+.contentAppear {
+    animation-name: contentAppear;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+@keyframes contentAppear {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+@keyframes navColor {
+    0% {
+        background-color: #3a3a3a;
+        position: relative;
+        left: 0px;
+    }
+    100% {
+        background-color: #c37df2;
+        position: relative;
+        left: 200px;
+    }
+}
+@keyframes navNormal {
+    0% {
+        background-color: #c37df2;
+        position: relative;
+        left: 200px;
+    }
+    100% {
+        background-color: #3a3a3a;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@keyframes naviconNormal {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes naviconAppear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
